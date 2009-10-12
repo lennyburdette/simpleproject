@@ -1,0 +1,15 @@
+README
+======
+
+Simpleproject is a basic ruby-based project template using Less CSS, Sprockets, ERb, and Sinatra.
+
+Requirements
+------------
+
+* Ruby
+* Rubygems
+
+Setup
+-----
+
+Just run <code>rake setup</code>.
