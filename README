@@ -12,4 +12,13 @@ Requirements
 Setup
 -----
 
-Just run <code>rake setup</code>.
+Just run `rake setup`.
+
+Export
+------
+
+1. Add file names to the `files:` array in `export.yml`.
+1. Run `rake export` while the server is running. The script will:
+	1. Create an "export" directory in the project folder
+	2. Copy all files from "public"
+	3. Render all files listed in `export.yml` as static files into "export"
